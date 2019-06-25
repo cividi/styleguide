@@ -4,16 +4,18 @@ This guide defines the basic principles and templates of the ```cividi``` visual
 
 ## Maps
 
-Many of ```cividi's``` publicly visible activities are based on maps. A ```cividi``` map should be
+Many of ```cividi's``` publicly visible activities are based on 2D maps. At it's core a ```cividi``` map should be
 
 * **easy** to read and understand
-* have **accessible colors**
+* be open (cf. [open definition](https://opendefinition.org/od/2.1/en/))
+* have [**accessible colors**](https://www.w3.org/TR/WCAG/#visual-audio-contrast)
+* tell a story
 * be **responsive**
 * show the relevant **context**
 * expose only the relevant user interaction
-* be open (cf. [open definition](https://opendefinition.org/od/2.1/en/))
-* a self contained, reproducable package (cf. [map data package](maps/map-setup.md#mdp))
-* tell a story
+* a self contained, reproduceable package (cf. [map data package](maps/map-setup.md#mdp))
+
+In a sense maps are a form of a diagram. Hence they could also be seen as a data driven document. To simplify map behavior, style etc. we started developing [smartuse-gl](https://github.com/smartuse/smartuse-gl). smartuse-gl is built on top of [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js).
 
 ## Diagrams
 
