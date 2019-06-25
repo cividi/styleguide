@@ -12,10 +12,9 @@ Many of ```cividi's``` publicly visible activities are based on maps. A ```civid
 * show the relevant **context**
 * expose only the relevant user interaction
 * be open (cf. [open definition](https://opendefinition.org/od/2.1/en/))
-* a self contained, reproducable package (cf. [map data package](maps/cividi-maps.md#mdp))
-
-A minimal map can be setup by running the following code.
+* a self contained, reproducable package (cf. [map data package](maps/map-setup.md#mdp))
+* tell a story
 
 ## Diagrams
 
-## Text
+Diagrams should be treated as ```data driven documents```. To help this effort ```cividi``` is building up a library for urban data diagrams. In reference to projects like [Observable](https://observablehq.com/) based on [D3.js](https://github.com/d3/d3).
